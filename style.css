@@ -1,0 +1,88 @@
+body {
+    background-image: url("bg\ img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+	width: 80%;
+	height: auto;
+	background:transparent ;
+	margin: 50px auto;
+    padding: 20px 50px 50px 50px;
+   
+}
+
+.wrapper h1 {
+	text-align: center;
+	font-family: cursive;
+	color: rgba(165, 42, 42, 0.774);
+	padding: 5px;
+}
+
+.wrapper #ques {
+	font-family: cursive;
+	font-size: 30px;
+    color: rgba(165, 42, 42, 0.774);
+    
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+#btn0,#btn1,#btn2,#btn3 {
+    width: 350px;
+    font-size: 25px;
+    background-color: #dbb847;
+	color: rgba(165, 42, 42, 0.774);
+	border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.19);
+    padding: 10px;
+	margin: 10px 5px 10px 0;
+}
+#btn0:hover,#btn1:hover,#btn2:hover,#btn3:hover {
+    cursor: pointer;
+    background-color: rgba(165, 42, 42, 0.774);
+    color: rgb(189, 136, 57);
+}
+
+#btn0:focus,#btn1:focus,#btn2:focus,#btn3:focus {
+	outline:0;
+}
+
+#progress {
+	font-size: 17px;
+	color: rgba(165, 42, 42, 0.774);
+}
+
+.progress-number {
+	border: 1px solid #fff;
+	background-color:rgb(189, 136, 57);
+	height: 25px;
+	width: 25px;
+	vertical-align: middle;
+	text-align: center;
+	color: rgba(165, 42, 42, 0.774);
+	display: inline-block;
+}
+
+
+#result{
+    text-align: center;
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 760px){
+    .wrapper {
+        width: 100%;
+        padding: 20px 10px 50px 10px;
+    }
+    #btn0,#btn1,#btn2,#btn3{
+        width: 100%;
+        margin: 5px 5px 5px 5px;
+    }
+    .wrapper h1{
+        font-size: x-large;
+    }
+}
